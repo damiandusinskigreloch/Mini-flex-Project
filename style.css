@@ -293,13 +293,13 @@ header .container img{
     transition: 0.5s ease-in-out;
 }
 .other-courses .container .course .bg.vue{
-    background-image: url("/img/vue.webp");
+    background-image: url("/img/vue.jpeg");
 }
 .other-courses .container .course .bg.react{
-    background-image: url("/img/react.webp");
+    background-image: url("/img/react.jpeg");
 }
 .other-courses .container .course .bg.angular{
-    background-image: url("/img/angular.webp");
+    background-image: url("/img/angular.jpeg");
 }
 
 .other-courses .container .course .course-btn{
