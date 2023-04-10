@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box by Traversy</title>
+    
+    
+<link rel="stylesheet" href="./Flex-box by Traversy_files/all.min.css"><link rel="stylesheet" href="./Flex-box by Traversy_files/style.css"></head>
+<body>
+    <nav class="main-nav">
+        <div class="container">
+            <div class="logo show">
+                <a href="http://127.0.0.1:5500/">Flex-box by Traversy</a>
+            </div>
+            <ul class="main-menu">
+                <li><a href="http://127.0.0.1:5500/">News</a></li>
+                <li><a href="http://127.0.0.1:5500/">About-Us</a></li>
+                <li><a href="http://127.0.0.1:5500/">Contact</a></li>
+            </ul>
+            <div class="mobile-menu show"></div>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="header-text">
+                <h1>Flexbox Crash Course</h1>
+                <p>This crash course was created by Brad Traversy to help you learn the basics of flexbox. Flexbox is a very important and useful tool in CSS.</p>
+                <a href="https://www.youtube.com/watch?v=3YW65K6LcIA" class="btn">Go to the course</a>
+            </div>
+            <img src="./Flex-box by Traversy_files/traversy-logo.jpeg" alt="Traversy-logo" title="Traversy-logo">
+        </div>
+    </header>
+    <main>
+        <section class="features">
+            <h3 class="section-header"><span>Flex-box</span> features</h3>
+            <div class="container">
+                <div class="container-item">
+                    <h2><i class="fas fa-arrows-alt-v"></i> Alignment &amp; Space</h2>
+                    <p>A more efficient way to lay out, align and distribute space among items in a container</p>
+                </div>
+
+                <div class="container-item">
+                    <h2><i class="fas fa-arrows-alt"></i>Tricky Positioning</h2>
+                    <p>Flexbox usually solves tricky problems including how to position or dynamically resize elements on a page</p>
+                </div>
+
+                <div class="container-item">
+                    <h2><i class="fas fa-mobile"></i>Responsive Design</h2>
+                    <p>Flexbox makes building a website layout (and making it responsive!) much, much easier</p>
+                </div>
+            </div>
+        </section>
+        <section class="other-courses">
+            <h3 class="section-header">Other <span>courses</span></h3>
+            <div class="container">
+                <div class="course">
+                    <div class="bg vue"></div>
+                    <a href="https://www.youtube.com/watch?v=qZXt1Aom3Cs" class="course-btn">Go to the course</a>
+                </div>
+                <div class="course">
+                    <div class="bg react"></div>
+                    <a href="https://www.youtube.com/watch?v=w7ejDZ8SWv8" class="course-btn">Go to the course</a>
+                </div>
+                <div class="course">
+                    <div class="bg angular"></div>
+                    <a href="https://www.youtube.com/watch?v=3dHNOWTI7H8" class="course-btn">Go to the course</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer><p>2023</p></footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
